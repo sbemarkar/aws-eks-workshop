@@ -91,7 +91,6 @@ pipelines:
         configuration:
           integrations:
             - name: {{ .Values.AWS.intName }}
-            - name: {{ .Values.AWS.eks }}
           inputResources:
             - name: awsEksRepo
           inputSteps:
