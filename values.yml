@@ -1,5 +1,5 @@
 Artifactory:
-  server: sechub@jfrog.io #change to your servername
+  server: sechub.jfrog.io #change to your servername
   intName: artifactory_integration
   devRepo: workshop-docker-local
   prodRepo: workshop-docker-prod-local
